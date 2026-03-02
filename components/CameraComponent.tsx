@@ -157,7 +157,7 @@ export const CameraComponent = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-6 text-white p-4 min-h-screen ">
+    <div className="flex flex-col items-center gap-6 text-white p-4 min-h-screen bg-[#0a0a0a36] ">
       {/* CAMERA AREA */}
       <div className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl" ref={imageContainerRef}>
         {/* Image/Video Container with fixed aspect ratio */}
